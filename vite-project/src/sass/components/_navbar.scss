@@ -1,0 +1,38 @@
+.navbar--transparent{
+    display:flex;
+    justify-content: space-between;
+    padding:0 1rem 0 1rem;
+    cursor: pointer;
+    border-bottom: 0.1rem black solid;
+    height: 8rem;
+    width: 100%;
+    
+}
+.right{
+    display: flex;
+    
+}
+.plain_ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2.7rem;
+    &:nth-child(n+2){
+        margin-left: 1rem;
+    }
+    
+    &--li:nth-child(n+2){
+        margin-left: 1rem;
+    }
+    &--li:hover{
+        font-weight: 800;
+    }
+}
+.logo{
+    font-size: 2rem;
+    margin-top: 2.46rem;
+    font-weight: 800;
+    font-weight: bolder;
+}

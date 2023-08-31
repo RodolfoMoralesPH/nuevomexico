@@ -1,0 +1,17 @@
+.bigButton{
+    height:5rem;
+    width:13rem;
+    border-radius: 20rem;
+    display: block;
+    bottom: 0rem;
+    margin: 0 auto;
+    background: linear-gradient(to bottom left, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    border: silver;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover{
+        margin-top: -0.5rem;
+        
+    }
+}

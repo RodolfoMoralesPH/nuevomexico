@@ -1,0 +1,47 @@
+.card{
+    display: block;
+    border: 0.4px silver solid;
+    width: 30rem;
+    height: 50rem;
+    border-radius: 1rem;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    &:hover{
+        border-bottom: 3px black solid;
+        margin-top: -5px;
+    }
+    
+    &--top, &--bottom{
+        padding: 2rem;
+        height: 50%;
+    }
+    &--top{
+        width: 100%;
+        
+    }
+    &--image{
+
+        height: 20rem;
+        width: 20rem;
+        position: absolute;
+        
+    }
+
+    &--title{
+        display: block;
+        font-weight: 900;
+        font-size:1.4rem;
+        margin-bottom: 1rem;
+    }
+    &--text{
+        
+       font-size: 2rem;
+    }
+}
+
+.center--ternary{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
